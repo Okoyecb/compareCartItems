@@ -187,11 +187,11 @@ var shoppingCart = (function() {
       cartArray.forEach((cartItems, i) => {
        console.log(cartItems)
        console.log(cartItems.count)
-       output += '<div>' +
+       output += '<section>' +
        '<div >' + cartItems.name   + '<div/>'
        + '<div>' + cartItems.price + '<div/>' + 
-       + '<div>' + cartItems.count + '<div/>' + 
-    '<div/>'           
+       + '<div>' + cartItems.count + '<div/>' +
+       '</section> '     
        
     })
     //   return output

@@ -14,3 +14,9 @@ body {
     height: 200px;
     align-self: center;
   }
+  .tab{
+    display: grid;
+    color:  red;
+    height:45vh;
+    grid-template-columns: repeat(3, 1fr);
+  }
